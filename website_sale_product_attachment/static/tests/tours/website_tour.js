@@ -11,10 +11,7 @@ odoo.define("website_sale_product_attachment.tour", function (require) {
         },
         [
             {
-                trigger: "a:contains('Customizable Desk')",
-            },
-            {
-                trigger: ".btn:contains('Product downloads')",
+                trigger: "#product_attachments_header button",
             },
         ]
     );
